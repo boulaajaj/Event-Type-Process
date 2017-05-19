@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="EventProcessor.UI.Views.EventTypeListView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:VMs="clr-namespace:EventProcessor.UI.ViewModels"
+        mc:Ignorable="d"
+        Height="648" Width="610">
+
+    <UserControl.InputBindings>
+        <KeyBinding Key="P"
+                    Modifiers="Control"
+                    Command="{Binding ProcessCommand}" />
+    </UserControl.InputBindings>
+    <UserControl.Resources>
+        <DataTemplate x:Key="EventTypeTemplate">
+            <Border BorderThickness="3"
+                    BorderBrush="Blue">
+                <StackPanel>
+                    <TextBlock Text="{Binding Id}" />
+                    <TextBlock Text="{Binding Name}" />
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <VMs:EventTypeViewModel />
+    </UserControl.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition   />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Stretch" Orientation="Horizontal"  Grid.Row="0">
+            <Button Content="Delete"
+                    Command="{Binding DeleteCommand}"
+                    Width="75" />
+            <Button Content="Update"
+                    Command="{Binding UpdateCommand}"
+                    Width="75" />
+            <Button Content="Add"
+                    Command="{Binding AddCommand}"
+                    Width="75" />
+            <Button Content="Process"
+                    Command="{Binding ProcessCommand}"
+                    Width="75" />
+        </StackPanel>
+
+        <DataGrid x:Name="eventTypeDataGrid"
+                  AutoGenerateColumns="False"
+                  ItemsSource="{Binding EventTypes}"
+                  SelectedItem="{Binding SelectedEventType}"
+                  SelectionMode="Single"
+                  Height="200"
+                  Grid.Row="1" VerticalAlignment="Top" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}"
+                                    Header="Id"
+                                    Width="100" IsReadOnly="True" />
+                <DataGridTextColumn Binding="{Binding Name}"
+                                    Header="Name"
+                                    Width="300" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <ListBox ItemsSource="{Binding ProcessedEventRules}"
+                 Grid.Row="2" VerticalAlignment="top" Margin="0,0,0,0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</UserControl>
