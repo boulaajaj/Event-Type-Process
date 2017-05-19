@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.6.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.6.0\lib\net45\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
@@ -80,11 +83,13 @@
     <Compile Include="Events\EventTypeDeletedEvent.cs" />
     <Compile Include="Events\EventTypeSavedEvent.cs" />
     <Compile Include="Services\EventProcessorService.cs" />
+    <Compile Include="StartUp\BootStrapper.cs" />
     <Compile Include="ViewModels\EventTypeViewModel.cs" />
     <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\IEventTypeViewModel.cs" />
     <Compile Include="Views\EventTypeListView.xaml.cs">
       <DependentUpon>EventTypeListView.xaml</DependentUpon>
     </Compile>

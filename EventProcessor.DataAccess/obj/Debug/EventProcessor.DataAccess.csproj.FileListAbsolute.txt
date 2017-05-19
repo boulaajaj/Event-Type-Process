@@ -1,0 +1,10 @@
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.DataAccess\bin\Debug\EventProcessor.DataAccess.dll.config
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.DataAccess\bin\Debug\EventProcessor.DataAccess.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.DataAccess\bin\Debug\EventProcessor.DataAccess.pdb
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.DataAccess\bin\Debug\EventProcessor.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.DataAccess\bin\Debug\EventProcessor.pdb
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.DataAccess\obj\Debug\EventProcessor.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.DataAccess\obj\Debug\EventProcessor.DataAccess.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.DataAccess\obj\Debug\EventProcessor.DataAccess.pdb

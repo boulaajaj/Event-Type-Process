@@ -1,0 +1,15 @@
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\xunit.abstractions.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\xunit.runner.utility.net35.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\xunit.runner.json
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\EventProcessor.Test.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\EventProcessor.Test.pdb
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\xunit.assert.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\xunit.core.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\xunit.execution.desktop.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\xunit.assert.xml
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\xunit.core.xml
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\bin\Debug\xunit.execution.desktop.xml
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\obj\Debug\EventProcessor.Test.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Test\obj\Debug\EventProcessor.Test.pdb

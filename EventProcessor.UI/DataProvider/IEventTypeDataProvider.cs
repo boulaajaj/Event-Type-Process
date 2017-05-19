@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace EventProcessor.UI.DataProviders
 {
-    internal interface IEventTypeDataProvider
+    public interface IEventTypeDataProvider
     {
         EventType GetEventTypeById(int id);
 

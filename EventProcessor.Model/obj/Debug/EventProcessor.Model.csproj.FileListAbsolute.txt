@@ -1,0 +1,4 @@
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Model\bin\Debug\EventProcessor.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Model\bin\Debug\EventProcessor.pdb
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Model\obj\Debug\EventProcessor.dll
+C:\Users\Owner\documents\visual studio 2017\Projects\EventProcessor\EventProcessor.Model\obj\Debug\EventProcessor.pdb

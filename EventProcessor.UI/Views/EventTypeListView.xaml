@@ -30,7 +30,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition   />
-            <RowDefinition Height="1*" />
+            <RowDefinition Height="430" />
         </Grid.RowDefinitions>
         <StackPanel HorizontalAlignment="Stretch" Orientation="Horizontal"  Grid.Row="0">
             <Button Content="Delete"
@@ -42,11 +42,14 @@
             <Button Content="Add"
                     Command="{Binding AddCommand}"
                     Width="75" />
-            <Button Content="Process"
-                    Command="{Binding ProcessCommand}"
-                    Width="75" />
+            
+            
         </StackPanel>
-
+        <StackPanel HorizontalAlignment="Right">
+                <Button Content="Process"
+                    Command="{Binding ProcessCommand}"
+                    Width="75"   Grid.Row="0"/>
+            </StackPanel>
         <DataGrid x:Name="eventTypeDataGrid"
                   AutoGenerateColumns="False"
                   ItemsSource="{Binding EventTypes}"
